@@ -1,0 +1,45 @@
+.riders{
+    border: 1px solid #7d7777cf;
+    margin: 10px;
+    text-align: center;
+    width: 23%;
+    padding: 21px;
+    display: inline-block;
+    height: 252px;
+    box-shadow: 3px 5px 10px grey;
+    background: #4c4141;
+    margin-top: 148px;
+    border-radius: 5px;
+}
+.riders img{
+    height: 110px;
+}
+.book{
+  background-color: aquamarine;  
+}
+.login{
+    border: none;
+    background-color:#7A003C;
+    border-radius: 0px 0px 21px 0px;
+    
+}
+@media (max-width: 768px) {
+    .riders {
+        width: 46%;
+        margin-top: 66px;
+    }
+ 
+  }
+  @media (max-width: 375px) {
+    .riders {
+        width: 93%;
+        margin-top: 66px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .riders {
+        width: 93%;
+        margin-top: 66px;
+    }
+    }

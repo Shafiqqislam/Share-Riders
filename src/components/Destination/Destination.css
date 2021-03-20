@@ -1,0 +1,90 @@
+.pick-form{
+    background: #84a78c;
+    margin-left: 46px;
+    margin-top: 30px;
+    text-align: inherit;
+    padding: 12px;
+    border-radius: 5px;
+}
+.destinatioon{
+  background-color: none;
+  display: flex;
+}
+
+input[type=text],select{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.map{
+    width: 534px;
+    margin-top: 27px;
+    margin-left: 119px;
+}
+
+@media (max-width: 768px) {
+  .destinatioon{
+    background-color: none;
+    display: block;
+  }
+  .pick-form{
+    background: #84a78c;
+    margin-left: 0px;
+    margin-top: 30px;
+    text-align: inherit;
+    padding: 12px;
+    border-radius: 5px;
+}
+.map{
+  width: 534px;
+  margin-top: 27px;
+  margin-left:0px;
+}
+input[type=text],select{
+  width: 98%;
+}
+}
+@media (max-width: 375px) {
+  .destinatioon{
+    background-color: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .destinatioon{
+    background-color: none;
+  }
+  }

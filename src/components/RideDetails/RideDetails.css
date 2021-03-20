@@ -1,0 +1,68 @@
+.destination{
+   background-color: #b9676f;
+    border-radius: 10px;
+}
+.destination h3{
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+}
+.rideDetails{
+    background-color: violet;
+}
+.pick-form img{
+    height: 29px;
+    padding: 2px;
+}
+.ride-info{
+    height: 500px;
+}
+.car-info{
+width: 350px;
+}
+.details{
+    display: flex;
+}
+.details h5{
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700; 
+}
+.icon{
+    height: 30px;
+}
+@media (max-width: 768px) {
+    .car-info{
+        width: 400px;
+        }
+        .details h5{
+            font-size: 13px;
+            display: inline-block;
+            padding: 10px;
+            font-weight: 700; 
+        }
+  }
+  @media (max-width: 375px) {
+    .car-info{
+        width: 350px;
+        }
+        .details h5{
+            font-size: 13px;
+            display: inline-block;
+            padding: 10px;
+            font-weight: 700; 
+        }
+  }
+  
+  @media (max-width: 425px) {
+    .car-info{
+        width: 350px;
+        }
+        .details h5{
+            font-size: 13px;
+            display: inline-block;
+            padding: 10px;
+            font-weight: 700; 
+        }
+    }

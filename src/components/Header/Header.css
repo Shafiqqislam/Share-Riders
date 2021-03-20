@@ -1,0 +1,29 @@
+.banner{
+    background-image: url("../../images/cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+li.nav-item {
+    margin-left: 28px;
+    margin-top: 14px;
+    font-size: 17px;
+}
+a {
+    /* color: #007bff; */
+    text-decoration: none!important;
+   color:#212529;
+}
+.login{
+    background-color: #7A003C;
+    color: white;
+    padding: 6px 32px;
+    border: 1px solid #7A003C;
+
+}
+.login:hover{
+   color:#212529;
+   background-color: transparent; 
+   border: 1px solid #7A003C;
+}
